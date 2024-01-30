@@ -46,7 +46,7 @@ class HomeScreen extends StatelessWidget {
               Container(
                 height: 50,
                 width: double.infinity,
-                padding: EdgeInsets.all(16),
+                padding: EdgeInsets.all(11),
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(10),
                   border: Border.all(color: Colors.grey),
@@ -68,7 +68,7 @@ class HomeScreen extends StatelessWidget {
                     )),
               ),
               SizedBox(
-                height: 40,
+                height: 4,
               ),
               jobs_item(context)
             ],
@@ -90,7 +90,7 @@ Container jobs_item(BuildContext context) {
       crossAxisCount: 2,
       children: <Widget>[
         Container(
-          padding: const EdgeInsets.all(8),
+          padding: const EdgeInsets.all(10),
           decoration: BoxDecoration(
               color: Color(0xffE9FFEB),
               borderRadius: BorderRadius.circular(10)),
@@ -100,8 +100,8 @@ Container jobs_item(BuildContext context) {
             children: [
               Image.asset(
                 "assets/img/gojek.png",
-                height: 20,
-                width: 20,
+                height: 50,
+                width: 50,
               ),
               SizedBox(
                 height: 16,
@@ -142,8 +142,8 @@ Container jobs_item(BuildContext context) {
             children: [
               Image.asset(
                 "assets/img/shopee.png",
-                height: 20,
-                width: 20,
+                height: 50,
+                width: 50,
               ),
               SizedBox(
                 height: 16,
@@ -184,8 +184,8 @@ Container jobs_item(BuildContext context) {
             children: [
               Image.asset(
                 "assets/img/bukalapak.png",
-                height: 20,
-                width: 20,
+                height: 35,
+                width: 35,
               ),
               SizedBox(
                 height: 16,
@@ -233,8 +233,8 @@ Container jobs_item(BuildContext context) {
             children: [
               Image.asset(
                 "assets/img/blibli.png",
-                height: 20,
-                width: 20,
+                height: 30,
+                width: 30,
               ),
               SizedBox(
                 height: 16,

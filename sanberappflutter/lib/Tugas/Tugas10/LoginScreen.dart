@@ -33,7 +33,7 @@ class LoginScreen extends StatelessWidget {
               Container(
                 height: 50,
                 width: double.infinity,
-                padding: EdgeInsets.all(16),
+                padding: EdgeInsets.all(11),
                 decoration: BoxDecoration(
                   border: Border.all(color: Color(0xff475BD8)),
                   borderRadius: BorderRadius.circular(10),
@@ -48,7 +48,7 @@ class LoginScreen extends StatelessWidget {
               Container(
                 height: 50,
                 width: double.infinity,
-                padding: EdgeInsets.all(16),
+                padding: EdgeInsets.all(1),
                 decoration: BoxDecoration(
                     color: Color(0xff475BD8),
                     border: Border.all(color: Color(0xff475BD8)),
