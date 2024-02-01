@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:sanberappflutter/Tugas/Tugas12/get_data_screen.dart';
+import 'package:sanberappflutter/Tugas/Tugas13/login_screen.dart';
+import 'package:firebase_core/firebase_core.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
       title: "Flutter Demo",
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: GetDataScreen(),
+      home: LoginScreen(),
     );
   }
 }

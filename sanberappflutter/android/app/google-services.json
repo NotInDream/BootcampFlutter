@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "360983231030",
+    "project_id": "authtrain-c21f5",
+    "storage_bucket": "authtrain-c21f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:360983231030:android:49742c28c1469b02c0f697",
+        "android_client_info": {
+          "package_name": "com.example.sanberappflutter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxAYKsELxueraoaXOcmkauHcu9SOFp49E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
