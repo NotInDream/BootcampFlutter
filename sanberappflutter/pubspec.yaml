@@ -30,13 +30,14 @@ environment:
 dependencies:
   cupertino_icons: ^1.0.2
   firebase_auth: ^4.17.0
-  firebase_core: ^2.25.0
+  firebase_core: ^2.25.2
   flutter:
     sdk: flutter
-  http: ^0.13.4
+  get: ^4.6.6
+  http: ^1.2.0
 
 dev_dependencies:
-  flutter_lints: ^2.0.0
+  flutter_lints: ^3.0.1
   flutter_test:
     sdk: flutter
 
